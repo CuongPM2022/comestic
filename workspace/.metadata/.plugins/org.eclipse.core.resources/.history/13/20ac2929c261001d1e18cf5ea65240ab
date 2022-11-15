@@ -1,0 +1,21 @@
+package com.comestic.utils;
+
+import javax.servlet.http.HttpServletRequest;
+
+public class Check {
+	public static boolean isLong(String s) {
+		try {
+			Long.parseLong(s);
+			return true;
+		} catch(NumberFormatException e) {
+			e.printStackTrace();
+			return false;
+		}
+	}
+	
+	public static boolean isLogin(HttpServletRequest request) {
+		boolean isLogin = false;
+		Long userId = SessionUtil.getValue(request, "userId")
+		return isLogin;
+	}
+}

@@ -1,0 +1,21 @@
+package com.comestic.dao.implement;
+
+import java.util.List;
+
+import com.comestic.dao.IUserDAO;
+import com.comestic.model.UserModel;
+
+public class UserDAO extends AbstractDAO<UserDAO> implements IUserDAO {
+	
+	List<Object> listInput;
+
+	@Override
+	public UserModel findOneByUserNameAndPassword(String username, String password) {
+		StringBuilder sql = new StringBuilder("select * from users where username = ? and password = ?");
+		this.listInput.add(username);
+		this.listInput.add(password);
+		return 
+		
+	}
+
+}

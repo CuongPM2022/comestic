@@ -1,0 +1,18 @@
+package com.comestic.dao.mapper;
+
+import java.sql.ResultSet;
+
+import com.comestic.model.BillStateModel;
+
+public class BillStateMapper implements IRowMapper<BillStateModel> {
+
+	@Override
+	public BillStateModel mapRow(ResultSet resultSet) {
+		BillStateModel billStateModel = null;
+		if(resultSet != null) {
+			
+		}
+		return billStateModel;
+	}
+
+}

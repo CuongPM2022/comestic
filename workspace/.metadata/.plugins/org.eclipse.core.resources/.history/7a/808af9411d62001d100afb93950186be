@@ -1,0 +1,23 @@
+package com.comestic.dao.implement;
+
+import javax.inject.Inject;
+
+import com.comestic.dao.ICartDAO;
+import com.comestic.dao.IStatisticDAO;
+import com.comestic.model.StatisticModel;
+
+public class StatisticDAO implements IStatisticDAO {
+
+	@Inject
+	private ICartDAO cartDAO;
+	
+	@Override
+	public StatisticModel getStatistic() {
+		StatisticModel statisticModel = new StatisticModel();
+		statisticModel.setNewBill(cartDAO.getTotalNewBill());
+		statisticModel.setTotalBill(cartDAO.getTotalBill());
+		statisticModel.setCancelBill(cartDAO.getTotalCancelBill());
+		return statisticModel;
+	}
+
+}

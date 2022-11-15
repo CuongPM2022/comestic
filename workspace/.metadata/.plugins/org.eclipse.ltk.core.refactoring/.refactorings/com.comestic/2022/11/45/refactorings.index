@@ -1,0 +1,36 @@
+1667306251600	Delete element
+1667306535369	Rename resource 'common.jsp'
+1667306774641	Delete element
+1667306960387	Move 'index.html' to 'web'
+1667307088838	Rename resource 'index.html'
+1667308782549	Delete element
+1667313284767	Rename resource 'web.jsp'
+1667313307295	Rename resource 'home.jsp'
+1667313611966	Rename resource 'index.jsp'
+1667384249835	Delete element
+1667384337544	Rename type 'IProduct'
+1667385673391	Encapsulate field 'listVariety'
+1667391340666	Encapsulate field 'image'
+1667394307057	Delete element
+1667433432031	Delete element
+1667433858961	Delete element
+1667434523909	Delete element
+1667434530140	Delete element
+1667434534547	Delete element
+1667469024273	Encapsulate field 'map'
+1667469050013	Encapsulate field 'filter'
+1667521603468	Rename type 'ICatrgoryDAO'
+1667524122343	Encapsulate field 'imageName'
+1667542827181	Delete element
+1667546711987	Delete element
+1667552653494	Delete elements
+1667564825470	Encapsulate field 'image'
+1667565234245	Encapsulate field 'price'
+1667615291760	Encapsulate field 'name'
+1667622909943	Delete element
+1667622926237	Encapsulate field 'value'
+1667633272808	Encapsulate field 'attributeOfVarietyModel'
+1667634422372	Encapsulate field 'attributeOfVarietyModel'
+1667639913000	Copy package
+1667639953996	Delete element
+1667641071140	Encapsulate field 'totalPreview'

@@ -1,0 +1,7 @@
+package com.comestic.controller.web;
+
+import javax.servlet.http.HttpServlet;
+
+public class CartController extends HttpServlet {
+
+}

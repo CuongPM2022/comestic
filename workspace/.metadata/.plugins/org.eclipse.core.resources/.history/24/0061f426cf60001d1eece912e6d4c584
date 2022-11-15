@@ -1,0 +1,31 @@
+package com.comestic.controller.api;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.comestic.utils.HttpUtil;
+
+@WebServlet(urlPatterns = {"/user"})
+public class UserController extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String action = req.getParameter("action");
+		if(action != null) {
+			if(action.equals("login")) {
+				UserModel userModel = HttpUtil.of(req.getReader()).toModel(UserModel.class);
+			}
+		}
+	}
+
+}

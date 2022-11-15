@@ -1,0 +1,5 @@
+package com.comestic.model;
+
+public class BillStateModel extends Ab {
+	
+}

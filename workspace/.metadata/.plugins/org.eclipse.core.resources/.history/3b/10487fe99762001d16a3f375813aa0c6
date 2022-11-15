@@ -1,0 +1,167 @@
+package com.comestic.dao.implement;
+
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.inject.Inject;
+
+import com.comestic.dao.ICartDAO;
+import com.comestic.dao.ICartItemDAO;
+import com.comestic.dao.mapper.CartDetailMapper;
+import com.comestic.dao.mapper.CartMapper;
+import com.comestic.model.CartItemModel;
+import com.comestic.model.CartModel;
+import com.comestic.utils.Paging;
+import com.comestic.utils.StringRandom;
+
+public class CartDAO extends AbstractDAO<CartModel> implements ICartDAO {
+	
+	@Inject
+	private ICartItemDAO cartItemDAO;
+	private CartItemModel cartItemModel;
+	private Long cartId;
+	private Double totalMoney, importMoney;
+	private List<CartItemModel> listCartItemModelError;
+	private List<Object> listInput;
+
+	@Override
+	public CartModel findOneByUserCart(CartModel cartModel) {
+		CartModel newCartModel = new CartModel();
+		List<CartItemModel> listResult = new ArrayList<CartItemModel>();
+		for(CartItemModel item:cartModel.getListCartItem()) {
+			this.cartItemModel = cartItemDAO.findOneByVarietyId(item.getVarietyId());
+			if(this.cartItemModel != null) {
+				this.cartItemModel.setUserQuantity(item.getUserQuantity());
+				listResult.add(this.cartItemModel);
+			}
+		}
+		newCartModel.setListCartItem(listResult);
+		return newCartModel;
+	}
+
+	@Override
+	public CartItemModel findOneItemCartByVarietyId(Long varietyId) {
+		return this.cartItemDAO.findOneByVarietyId(varietyId);
+	}
+
+	@Override
+	public Integer getNumberOfVarietyById(Long varietyId) {
+		return cartItemDAO.getNumberOfVarietyById(varietyId);
+	}
+
+	@Override
+	public Long save(CartModel cartModel) {
+		this.cartId = null;
+		this.totalMoney = 0D;
+		this.importMoney = 0D;
+		
+		StringBuilder sql = new StringBuilder();
+		sql.append("Insert into bill(code,totalmoney,importmoney,date,namecustomer,gender,phone,address,email,method,note,stateid)");
+		sql.append(" values (?,?,?,?,?,?,?,?,?,?,?,?)");
+		this.listInput = new ArrayList<Object>();
+		this.listInput.add(StringRandom.nextString(6));
+		this.listInput.add(this.totalMoney);
+		this.listInput.add(this.importMoney);
+		this.listInput.add(new Timestamp(System.currentTimeMillis()));
+		this.listInput.add(cartModel.getNameCustomer());
+		this.listInput.add(cartModel.getGender().equals("male") ? "Nam":"Nữ");
+		this.listInput.add(cartModel.getPhone());
+		this.listInput.add(cartModel.getAddress());
+		this.listInput.add(cartModel.getEmail());
+		this.listInput.add(cartModel.getMethod());
+		this.listInput.add(cartModel.getNote());
+		this.listInput.add(1L);
+		this.cartId = insert(sql.toString(), this.listInput);
+		
+		this.listCartItemModelError = new ArrayList<CartItemModel>();
+		for(CartItemModel cartItem:cartModel.getListCartItem()) {
+			this.cartItemModel = cartItemDAO.findOneByVarietyId(cartItem.getVarietyId());
+			this.cartItemModel.setUserQuantity(cartItem.getUserQuantity());
+			if(this.cartItemModel.getUserQuantity() <= this.cartItemModel.getNumber()) {
+				this.cartItemModel.setCartId(this.cartId);
+				this.cartItemDAO.save(this.cartItemModel);
+				this.totalMoney += this.cartItemModel.getUserQuantity() * this.cartItemModel.getPrice();
+				this.importMoney += this.cartItemModel.getUserQuantity() * this.cartItemModel.getPrice() 
+									* (1- (this.cartItemModel.getPercentDes() + 0.0)/100);
+				
+			}
+			else {
+				this.listCartItemModelError.add(this.cartItemModel);
+			}
+		}
+		
+		sql = new StringBuilder("Update bill set totalmoney=?, importmoney=? where id=?");
+		this.listInput.clear();
+		this.listInput.add(this.totalMoney);
+		this.listInput.add(this.importMoney);
+		this.listInput.add(this.cartId);
+		update(sql.toString(), this.listInput);
+		return this.cartId;
+	}
+
+	@Override
+	public List<CartModel> findAll(Paging paging) {
+		StringBuilder sql = new StringBuilder("select id, code, importmoney, date, namecustomer from bill");
+		setPaging(sql, paging);
+		return query(sql.toString(), new CartMapper(), this.listInput);
+	}
+
+	@Override
+	public CartModel findOne(Long id) {
+		StringBuilder sql = new StringBuilder("select b.id, code, totalmoney, importmoney, date, namecustomer, gender, phone,");
+		sql.append(" address, email, method, note, s.id as stateid, name as statename");
+		sql.append(" from bill b, state s where b.stateid = s.id and b.id = " + id);
+		List<CartModel> listResult = query(sql.toString(), new CartDetailMapper());
+		if(listResult != null && listResult.size() > 0) {
+			CartModel cartModel = listResult.get(0);
+			cartModel.setListCartItem(cartItemDAO.findByCartId(cartModel.getId()));
+			return cartModel;
+		}
+		return null;
+	}
+
+	@Override
+	public void updateStateForBill(CartModel cartModel) {
+		if(cartModel.getId() != null && cartModel.getStateId() != null) {
+			StringBuilder sql = new StringBuilder("Update bill set stateid=? where id=?");
+			this.listInput = new ArrayList<Object>();
+			this.listInput.add(cartModel.getStateId());
+			this.listInput.add(cartModel.getId());
+			update(sql.toString(), this.listInput);
+		}
+	}
+
+	@Override
+	public Integer getTotalNewBill(Paging paging) {
+		StringBuilder sql = new StringBuilder("select count(*) from bill where stateid = 1");
+		this.listInput = null;
+		setPaging(sql, paging, this.listInput);
+		return count(sql.toString(), this.listInput);
+	}
+
+	@Override
+	public Integer getTotalBill(Paging paging) {
+		StringBuilder sql = new StringBuilder("select count(*) from bill");
+		setPaging(sql, paging);
+		return count(sql.toString(), this.listInput);
+	}
+
+	@Override
+	public Double getTotalMoney(Paging paging) {
+		StringBuilder sql = new StringBuilder("select sum(importmoney) from bill where stateid != 4");
+		setPaging(sql, paging);
+		return (Double) getRecord(sql.toString(), this.listInput);
+	}
+
+	@Override
+	public Integer getTotalCancelBill(Paging paging) {
+		StringBuilder sql = new StringBuilder("select count(*) from bill where stateid = 4");
+		this.listInput = null;
+		setPaging(sql, paging, this.listInput);
+		System.out.println(sql.toString());
+		System.out.println(this.listInput == null ? 1:2);
+		return count(sql.toString(), this.listInput);
+	}
+	
+}

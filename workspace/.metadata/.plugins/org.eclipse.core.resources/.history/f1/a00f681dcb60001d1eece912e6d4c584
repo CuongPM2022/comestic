@@ -1,0 +1,7 @@
+package com.comestic.service.implement;
+
+import com.comestic.service.IUserService;
+
+public class UserService implements IUserService {
+
+}

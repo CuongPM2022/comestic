@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" type="text/css" href="../../common/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<body>
+	<div id="contain">
+		<div class="grid wide">
+			<div class="login">
+				<div class="row center">
+					<div class="col p-4 t-6 m-12">
+						<div class="body">
+							<form method="post" action="" id="form">
+								<div class="header">Đăng nhập</div>
+								<div class="formGroupt">
+									<div class="box__input">
+										<input type="text" name="user" placeholder="Tên đăng nhập" rules="require">
+									</div>
+									<span class="form-message">Trường này là bắt buộc!</span>
+								</div>
+
+								<div class="formGroupt">
+									<div class="box__input">
+										<input type="password" name="pass" placeholder="Mật khẩu" rules="require">
+									</div>
+									<span class="form-message">Trường này là bắt buộc!</span>
+								</div>
+
+								<div type="submit" class="btn_LogIn form-submit">Đăng nhập</div>
+
+								<div class="footer">
+									<a href="#">Quên mật khẩu?</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<!-- Javascript -->
+<script type="text/javascript" src="../../common/js/validate.js"></script>
+<script type="text/javascript">
+	var validate = new Validate('#form', data => console.log(data));
+</script>
+</html>

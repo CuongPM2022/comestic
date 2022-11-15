@@ -1,0 +1,8 @@
+package com.comestic.model;
+
+public class UserModel extends AbstractModel {
+	private String username;
+	private String password;
+	private String name;
+	private Long image;
+}

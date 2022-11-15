@@ -1,0 +1,13 @@
+package com.comestic.dao.mapper;
+
+import java.sql.ResultSet;
+
+import com.comestic.model.CartModel;
+
+public class CartDetailMapper extends CartMapper {
+	public CartModel mapRow(ResultSet resultSet) {
+		CartModel cartModel = null;
+		
+		return cartModel;
+	}
+}

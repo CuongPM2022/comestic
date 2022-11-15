@@ -1,0 +1,5 @@
+package com.comestic.dao.mapper;
+
+public class UserMapper implements IRowMapper<UserModel> {
+
+}

@@ -1,0 +1,9 @@
+package com.comestic.utils;
+
+public class StringRandom {
+ public static String nextString(int length) {
+	 String temp = "";
+	 
+	 return temp;
+ }
+}

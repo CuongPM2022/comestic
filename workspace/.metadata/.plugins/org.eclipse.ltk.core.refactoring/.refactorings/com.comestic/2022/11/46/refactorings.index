@@ -1,0 +1,18 @@
+1667694140637	Encapsulate field 'categoryName'
+1667695893084	Rename package 'com.comestic.controller.web.api'
+1667697696188	Encapsulate field 'listAttribute'
+1667810442790	Encapsulate field 'maxQuantity'
+1667812721501	Encapsulate field 'id'
+1667813154956	Encapsulate field 'userQuantity'
+1667824923625	Rename package 'com.comestic.utils.paging'
+1667962358098	Encapsulate field 'email'
+1667962420562	Encapsulate field 'method'
+1667990672329	Encapsulate field 'cartId'
+1667997001356	Encapsulate field 'stateSuccess'
+1667997053643	Encapsulate field 'insertAll'
+1668060707512	Encapsulate field 'code'
+1668061644652	Delete element
+1668063732334	Rename resource 'admin.jsp'
+1668084484709	Delete element
+1668135105364	Encapsulate field 'strDate'
+1668168704900	Encapsulate field 'productCode'

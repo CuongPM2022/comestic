@@ -1,0 +1,7 @@
+package com.comestic.dao;
+
+import com.comestic.model.UserModel;
+
+public interface IUserDAO {
+	Integer handleLogin(UserModel userModel);
+}
