@@ -23,6 +23,7 @@ public class CartMapper implements IRowMapper<CartModel> {
 				cartModel.setDate(resultSet.getTimestamp("date"));
 				this.date = (new SimpleDateFormat("dd/MM/YYYY HH:mm")).format(resultSet.getTimestamp("date"));
 				cartModel.setStrDate(this.date);
+				cartModel.setStateId(resultSet.getLong("stateid"));
 			} catch(SQLException e) {
 				cartModel = null;
 				e.printStackTrace();

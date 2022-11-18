@@ -1,0 +1,357 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách đơn hàng</title>
+    <link rel="stylesheet" type="text/css" href="../../common/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="../../common/css/icon/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/listBill.css">
+    <link rel="stylesheet" type="text/css" href="../css/header_menu.css">
+</head>
+<body>
+    <div id="contain">
+        <div class="header">
+            <div class="row center">
+                <div class="col p-8 t-4 m-4">
+                    <div class="header__dropmenu">
+                        <span class="header__dropmenu__icon">
+                            <i class="fa-solid fa-bars"></i>
+                        </span>
+
+                        <span class="header__text">ADMIN</span>
+                    </div>
+                </div>
+
+                <div class="col p-4 t-8 m-8">
+                    <div class="header__detail">
+                        <span class="header__search__icon header__detail__icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+
+                        <!-- Empty: .empty -->
+                        <div class="header__notify__icon header__detail__icon">
+                            <i class="fa-solid fa-bell"></i>
+
+                            <span class="header__notify__number">4</span>
+
+                            <!-- Popup: .popup -->
+                            <div class="header__notify">
+                                <p class="header__notify__text">THÔNG BÁO MỚI</p>
+                                <div class="header__notify__body">
+                                    <!-- Hide: .hide -->
+                                    <div class="header__notify__item">
+                                        <span class="notify__item__icon" style="background:var(--primaryGreen);">
+                                            <i class="fa-solid fa-cart-plus"></i>
+                                        </span>
+                                        <div class="notify__item__content">
+                                            <p class="notify__content__text">4 đơn hàng mới</p>
+                                            <p class="notify__content__time">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span class="content__time__text">
+                                                    2 giờ trước
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="header__notify__item">
+                                        <span class="notify__item__icon" style="background:var(--primaryBlue);">
+                                            <i class="fa-solid fa-comments"></i>
+                                        </span>
+                                        <div class="notify__item__content">
+                                            <p class="notify__content__text">2 bình luận mới</p>
+                                            <p class="notify__content__time">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span class="content__time__text">
+                                                    3 giờ trước
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="header__notify__item">
+                                        <span class="notify__item__icon" style="background:var(--primaryRed);">
+                                            <i class="fa-regular fa-trash-can"></i>
+                                        </span>
+                                        <div class="notify__item__content">
+                                            <p class="notify__content__text">1 đơn hàng đã hủy</p>
+                                            <p class="notify__content__time">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span class="content__time__text">
+                                                    2 giờ trước
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="header__notify__empty">Hiện chưa có thông báo nào!</div>
+                            </div>
+
+                        </div>
+
+                        <div class="header__account">
+                            <span class="header__account__name">
+                                <span>Nam Phan</span>
+                                <i class="fa-solid fa-caret-down"></i>
+                            </span>
+                        
+                            <img src="../../source/image/product/pd01.png">
+                            <!-- Active: .active -->
+                            <div class="account__menu">
+                                <div class="account__item">
+                                    <i class="fa-regular fa-user"></i>
+                                    <span>Thông tin tài khoản</span>
+                                </div>
+                                <div class="account__item">
+                                    <i class="fa-solid fa-right-from-bracket"></i>
+                                    <span>Đăng xuất</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col p-12 t-12 m-12">
+                    <!-- Active: .active -->
+                    <div class="header__search">
+                        <span class="header__search__icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+
+                        <form action="" mrthod="get" class="frmSearch">
+                            <input type="text" name="txtSearch" placeholder="Nhập từ khóa cần tìm...">
+                        </form>
+
+                        <span class="header__search__close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- end .header -->
+
+        <!-- Active: .active -->
+        <div class="menu">
+            <!-- Active: .active -->
+            <div class="menu__item">
+                <a href="#">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="menu__item__text">Trang chủ</span>
+                </a>
+            </div>
+
+            <div class="menu__item active">
+                <a href="#">
+                    <i class="fa-solid fa-money-bills"></i>
+                    <span class="menu__item__text">Quản lý đơn hàng</span>
+                </a>
+            </div>
+
+            <div class="menu__item">
+                <a href="#">
+                    <i class="fa-regular fa-rectangle-list"></i>
+                    <span class="menu__item__text">Quản lý danh mục</span>
+                </a>
+            </div>
+
+             <div class="menu__item">
+                <a href="#">
+                    <i class="fa-brands fa-product-hunt"></i>
+                    <span class="menu__item__text">Quản lý sản phẩm</span>
+                </a>
+            </div>
+
+            <div class="menu__item">
+                <a href="#">
+                    <i class="fa-solid fa-comments"></i>
+                    <span class="menu__item__text">Quản lý bình luận</span>
+                </a>
+            </div>
+            
+        </div>
+        <!-- end .menu -->
+
+        <div class="body" id="list_contain">
+            <div class="sort__contain">
+                <p class="text__header">DANH SÁCH ĐƠN HÀNG</p>
+                <!-- active: .active -->
+                <div class="sort">
+                    <div class="allAction">
+                        <!-- show: .show -->
+                        <span class="allAction__item action--delete">
+                            <i class="fa-solid fa-trash"></i>
+                        </span>
+                    </div>
+                    <div class="sort__header">
+                        <span class="sort__header__text">Lọc theo</span>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="sort__list">
+                        <!-- active: .active -->
+                        <div class="sort__item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Tất cả đơn hàng</span>
+                        </div>
+                        <div class="sort__item active">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Đơn hàng mới</span>
+                        </div>
+                        <div class="sort__item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Đơn hàng đang giao</span>
+                        </div>
+                        <div class="sort__item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Đơn hàng đã thanh toán</span>
+                        </div>
+                        <div class="sort__item">
+                            <i class="fa-solid fa-check"></i>
+                            <span>Đơn hàng đã hủy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <table class="listTable">
+                <thead>
+                    <tr>
+                        <th><input type="checkbox" ></th>
+                        <th>STT</th>
+                        <th>Mã</th>
+                        <th>Khách hàng</th>
+                        <th>Tổng tiền</th>
+                        <th>Thời gian</th>
+                        <th class="tbCenter">Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-key="1">
+                        <td><input type="checkbox" ></td>
+                        <td>1</td>
+                        <td>XYM-ASD5E4</td>
+                        <td>Nguyễn Văn Minh</td>
+                        <td>2.000.000đ</td>
+                        <td>22/11/2022 14:20</td>
+                        <td class="tbCenter">
+                            <span class="td__action td__action--info">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </span>
+
+                            <span class="td__action td__action--delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr data-key="2">
+                        <td><input type="checkbox" ></td>
+                        <td>1</td>
+                        <td>XYM-ASD5E4</td>
+                        <td>Nguyễn Văn Minh</td>
+                        <td>2.000.000đ</td>
+                        <td>22/11/2022 14:20</td>
+                        <td class="tbCenter">
+                             <span class="td__action td__action--info">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </span>
+
+                            <span class="td__action td__action--delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr data-key="3">
+                        <td><input type="checkbox" ></td>
+                        <td>1</td>
+                        <td>XYM-ASD5E4</td>
+                        <td>Nguyễn Văn Nhung</td>
+                        <td>2.000.000đ</td>
+                        <td>22/11/2022 14:20</td>
+                        <td class="tbCenter">
+                             <span class="td__action td__action--info">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </span>
+
+                            <span class="td__action td__action--delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr data-key="4">
+                        <td><input type="checkbox" ></td>
+                        <td>1</td>
+                        <td>XYM-ASD5E4</td>
+                        <td>Nguyễn Văn Minh</td>
+                        <td>2.000.000đ</td>
+                        <td>22/11/2022 14:20</td>
+                        <td class="tbCenter">
+                             <span class="td__action td__action--info">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </span>
+
+                            <span class="td__action td__action--delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr data-key="5">
+                        <td><input type="checkbox" ></td>
+                        <td>1</td>
+                        <td>XYM-ASD5E4</td>
+                        <td>Nguyễn Văn Minh</td>
+                        <td>2.000.000đ</td>
+                        <td>22/11/2022 14:20</td>
+                        <td class="tbCenter">
+                             <span class="td__action td__action--info">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </span>
+
+                            <span class="td__action td__action--delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </span>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <!-- Hide: .hide -->
+            <div class="listPaging__contain">
+                <div class="row">
+                    <div class="col p-4 t-8 m-12">
+                        <ul class="listPaging">
+                            <!-- Active: .active -->
+                            <li class="listPaging__item"><<</li>
+                            <li class="listPaging__item active">1</li>
+                            <li class="listPaging__item">2</li>
+                            <li class="listPaging__item">3</li>
+                            <li class="listPaging__item">...</li>
+                            <li class="listPaging__item">10</li>
+                            <li class="listPaging__item">>></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Active: .active -->
+        <div class="overload"></div>
+    </div>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="../js/header_menu.js"></script>
+    <script type="text/javascript" src="../../common/js/listTable.js"></script>
+    <script type="text/javascript">
+        var listTable = new listTable('#list_contain', data => console.log(data));
+    </script>
+</body>
+</html>

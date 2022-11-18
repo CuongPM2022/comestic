@@ -6,8 +6,8 @@ function listTable(listSelector, callback)
 		this.allAction = this.contain.querySelector('.allAction');
 		this.table = this.contain.querySelector('.listTable');
 		this.allCheckBoxElement = this.table.querySelector('th input[type="checkbox"]');
-		this.listCheckboxElement = this.table.querySelectorAll('tbody tr input[type="checkbox"]');
 		this.listData = [];
+		this.temp = null;
 
 		// Functions Common
 		this.getParentElementBySelector = function(element, selector) {
@@ -25,7 +25,7 @@ function listTable(listSelector, callback)
 		this.getDataListFromTable = function()
 		{
 			this.lisData = [];
-			[...this.listCheckboxElement].forEach(ele => {
+			this.table.querySelectorAll('tbody tr input[type="checkbox"]').forEach(ele => {
 				if(ele.checked)
 				{
 					this.lisData.push(this.getParentElementBySelector(ele,'tr').dataset.key);
@@ -91,31 +91,9 @@ function listTable(listSelector, callback)
 					this.handleDeleteAllElement('hide');
 				}
 
-				[...this.listCheckboxElement].forEach(ele => ele.checked = isAllChecked);
+				this.table.querySelectorAll('tbody tr input[type="checkbox"]')
+						  .forEach(ele => ele.checked = isAllChecked);
 			});
-
-			[...this.listCheckboxElement].forEach(ele => {
-				ele.addEventListener('change', (e) => {
-					let isCheked = e.target.checked;
-					let numChecked = this.getDataListFromTable().length;
-					if(isCheked)
-					{
-						if(numChecked === this.listCheckboxElement.length)
-						{
-							this.allCheckBoxElement.checked = true;
-						}
-						this.handleDeleteAllElement('show');
-					}
-					else {
-						this.allCheckBoxElement.checked = false;
-						if(numChecked === 0)
-						{
-							this.handleDeleteAllElement('hide');
-						}
-					}
-				});
-			});
-
 		}
 
 		if(this.table)
@@ -134,6 +112,23 @@ function listTable(listSelector, callback)
 				else if(element.closest('.td__action--detail'))
 				{
 					action = 'detail';
+				}
+				else if(element.closest('td input[type="checkbox"]')) {
+					const checked = element.checked;
+					if(checked) {
+						this.handleDeleteAllElement('show');
+						const numUncheck = this.table.querySelectorAll('td input[type="checkbox"]:not(:checked)').length;
+						if(numUncheck == 0) {
+							this.allCheckBoxElement.checked = true;
+						}
+					}
+					else {
+						this.allCheckBoxElement.checked = false;
+						const numChecked = this.table.querySelectorAll('td input[type="checkbox"]:checked').length;
+						if(numChecked == 0) {
+							this.handleDeleteAllElement('hide');
+						}
+					}
 				}
 
 				if(typeof callback === 'function' && action != '')

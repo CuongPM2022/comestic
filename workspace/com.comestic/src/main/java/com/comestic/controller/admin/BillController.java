@@ -22,15 +22,21 @@ public class BillController extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String action = req.getParameter("action");
+		String path = "";
 		if(action != null) {
 			if(action.equals("billDetail")) {
 				String id = req.getParameter("billId");
 				if(id != null && Check.isLong(id)) {
-					RequestDispatcher rd = req.getRequestDispatcher("/views/admin/jsp/billDetail.jsp");
+					path = "/views/admin/jsp/billDetail.jsp";
 					req.setAttribute("billId", id);
-					rd.forward(req, resp);
 				}
 			}
+			else if(action.equals("listBill")) {
+				path = "/views/admin/jsp/listBill.jsp";
+			}
+			
+			RequestDispatcher rd = req.getRequestDispatcher(path);
+			rd.forward(req, resp);
 		}
 	}
 

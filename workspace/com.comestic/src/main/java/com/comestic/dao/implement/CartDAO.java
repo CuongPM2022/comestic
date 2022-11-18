@@ -102,7 +102,7 @@ public class CartDAO extends AbstractDAO<CartModel> implements ICartDAO {
 
 	@Override
 	public List<CartModel> findAll(Paging paging) {
-		StringBuilder sql = new StringBuilder("select id, code, importmoney, date, namecustomer from bill");
+		StringBuilder sql = new StringBuilder("select id, code, importmoney, date, namecustomer, stateid from bill");
 		setPaging(sql, paging);
 		return query(sql.toString(), new CartMapper());
 	}

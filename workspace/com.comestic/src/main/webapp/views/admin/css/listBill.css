@@ -1,0 +1,194 @@
+* {
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.body {
+	padding: 16px 32px;
+	min-height: 60vh;
+}
+
+.sort__contain {
+	display: flex;
+	align-items: center;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 4px;
+}
+
+.text__header {
+	margin-top: auto;
+}
+
+.sort {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	position: relative;
+}
+
+.allAction {
+	padding-right: 16px;
+}
+
+.allAction i {
+	color: white;
+}
+
+.allAction__item {
+	display: none;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.allAction__item.show {
+	display: inline-block;
+}
+
+.allAction__item + .allAction__item {
+	margin-left: 6px;
+}
+
+.action--create {
+	background: #2f86eb;
+}
+
+.action--delete {
+	background: #ff623d;
+}
+
+.sort__header {
+	padding: 8px 10px 8px;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.sort__header i {
+	font-size: 12px;
+	color: var(--textColor);
+	padding-bottom: 2px;
+}
+
+.sort.active .sort__list {
+	display: block;
+}
+
+.sort__list {
+	display: none;
+	background: white;
+	position: absolute;
+	right: 0;
+	top: 38px;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	padding: 0 12px;
+	width: max-content;
+	margin-top: 3px;
+}
+
+.sort__item {
+	padding: 10px 18px 10px 4px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.sort__item:last-child {
+	border-bottom: none;
+}
+
+.sort__item i {
+	font-size: 12px;
+	margin-right: 4px;
+	display: none;
+}
+
+.sort__item.active i {
+	display: inline;
+}
+
+/* Table */
+.listTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.listTable th,
+.listTable td {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 8px;
+	text-align: left;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+th.tbCenter,
+td.tbCenter {
+	text-align: center;
+}
+
+.td__action {
+	display: inline-block;
+	width: 26px;
+	padding: 4px 0px;
+	text-align: center;
+	color: white;
+}
+
+.td__action + .td__action {
+	margin-left: 8px;
+}
+
+.td__action > i {
+	font-size: 13px;
+}
+
+.td__action--detail {
+	background: #2f86eb;
+}
+
+
+.td__action--delete {
+	background: #ff623d;
+}
+
+.listTable tr:nth-child(even) {
+	background: #f8f8f8;
+}
+
+/* Paging */
+.listPaging__contain {
+	margin-top: 16px;
+}
+
+.listPaging__contain.hide {
+	display: none;
+}
+
+.listPaging {
+	list-style-type: none;
+}
+
+.listPaging__item {
+	display: inline-block;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background: #f3f3f3;
+}
+
+.listPaging__item + .listPaging__item {
+	margin-left: 4px;
+}
+
+.listPaging__item.active {
+	background: #abc;
+	color: white;
+}
+
+
+/* end Paging */

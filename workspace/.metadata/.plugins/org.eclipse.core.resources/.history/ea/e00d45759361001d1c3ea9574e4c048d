@@ -1,9 +1,0 @@
-package com.comestic.dao;
-
-import com.comestic.model.CartItemModel;
-
-public interface ICartItemDAO {
-	CartItemModel findOneByVarietyId(Long varietyId);
-	Integer getNumberOfVarietyById(Long varietyId);
-	Long save(CartItemModel cartItemModel);
-}
