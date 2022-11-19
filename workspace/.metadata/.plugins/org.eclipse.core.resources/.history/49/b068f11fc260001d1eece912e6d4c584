@@ -1,7 +1,0 @@
-package com.comestic.dao.implement;
-
-import com.comestic.dao.IUserDAO;
-
-public class UserDAO implements IUserDAO {
-
-}

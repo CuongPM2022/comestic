@@ -24,10 +24,14 @@ public class ProductController extends HttpServlet {
 		String action = req.getParameter("action");
 		String id = req.getParameter("id");
 		String path = "";
-		if(action != null && id != null) {
-			if(action.equals("productDetail") && Check.isLong(id)) {
+		if(action != null) {
+			if(action.equals("productDetail") && id!= null && Check.isLong(id)) {
 				path = "/views/web/jsp/productDetail.jsp";
 				req.setAttribute("id", id);
+			}
+			if(action.equals("allProduct")) {
+				path = "/views/web/jsp/allProduct.jsp";
+				req.setAttribute("categoryId", req.getParameter("categoryId"));
 			}
 			
 			RequestDispatcher rd = req.getRequestDispatcher(path);

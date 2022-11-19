@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.comestic.model.ProductModel"/>
-    <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.spi.Pty"/>
-    <fullyQualifiedTypeName name="com.comestic.service.IProductService"/>
-    <fullyQualifiedTypeName name="com.comestic.dao.implement.VarietyDAO"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
     <fullyQualifiedTypeName name="com.comestic.utils.paging.Check"/>
     <fullyQualifiedTypeName name="com.comestic.dao.ICartItemDAO"/>
@@ -14,7 +10,6 @@
     <fullyQualifiedTypeName name="com.comestic.model.CartItemModel"/>
     <fullyQualifiedTypeName name="java.sql.Timestamp"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.text.MessageFormat"/>
     <fullyQualifiedTypeName name="com.comestic.dao.IUserDAO"/>
     <fullyQualifiedTypeName name="com.comestic.model.UserModel"/>
     <fullyQualifiedTypeName name="com.comestic.dao.mapper.UserMapper"/>
@@ -31,33 +26,38 @@
     <fullyQualifiedTypeName name="com.comestic.dao.mapper.CartDetailMapper"/>
     <fullyQualifiedTypeName name="com.comestic.dao.mapper.CartItemMapper"/>
     <fullyQualifiedTypeName name="com.comestic.dao.mapper.CartItemDetailMapper"/>
-    <fullyQualifiedTypeName name="com.comestic.model.AbstractModel"/>
-    <fullyQualifiedTypeName name="com.comestic.dao.mapper.IRowMapper"/>
     <fullyQualifiedTypeName name="com.comestic.model.BillStateModel"/>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="com.comestic.dao.mapper.BillStateMapper"/>
     <fullyQualifiedTypeName name="com.comestic.dao.IBillStateDAO"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
     <fullyQualifiedTypeName name="com.comestic.utils.SessionUtil"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
-    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
-    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
     <fullyQualifiedTypeName name="com.comestic.utils.Check"/>
     <fullyQualifiedTypeName name="com.comestic.dao.IStatisticDAO"/>
     <fullyQualifiedTypeName name="org.apache.catalina.tribes.membership.StaticMember"/>
     <fullyQualifiedTypeName name="com.comestic.dao.ICartDAO"/>
     <fullyQualifiedTypeName name="com.comestic.dao.implement.CartDAO"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="com.comestic.dao.implement.AbstractDAO"/>
     <fullyQualifiedTypeName name="com.comestic.model.StatisticModel"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.comestic.service.IStatisticService"/>
-    <fullyQualifiedTypeName name="javax.inject.Inject"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="com.comestic.utils.Paging"/>
     <fullyQualifiedTypeName name="com.comestic.utils.HttpUtil"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="com.comestic.model.AbstractModel"/>
+    <fullyQualifiedTypeName name="com.comestic.dao.implement.AbstractDAO"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="com.comestic.dao.mapper.IRowMapper"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.comestic.model.ManufactureModel"/>
+    <fullyQualifiedTypeName name="com.comestic.dao.mapper.ManufactureMapper"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.comestic.dao.IManufactureDAO"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+    <fullyQualifiedTypeName name="com.comestic.service.IManufactureService"/>
+    <fullyQualifiedTypeName name="javax.inject.Inject"/>
+    <fullyQualifiedTypeName name="java.text.MessageFormat"/>
 </qualifiedTypeNameHistroy>

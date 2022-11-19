@@ -1,7 +1,0 @@
-package com.comestic.service;
-
-import com.comestic.model.StatisticModel;
-
-public interface IStatisticService {
-	StatisticModel getStatistic();
-}

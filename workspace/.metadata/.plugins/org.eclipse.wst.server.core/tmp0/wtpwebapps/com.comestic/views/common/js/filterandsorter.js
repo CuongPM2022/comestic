@@ -8,6 +8,12 @@ function filterAndSorter(callback) {
 
 	// Variable
 	var listData = {};
+	var sortData = {
+		'sortName' : 'view',
+		'sortBy' : 'desc'
+	};
+	var offset = 0;
+	const maxItem = 12;
 	var listElement = {};
 	var listElementTemp = {};
 	var popupElement;
@@ -56,16 +62,20 @@ function filterAndSorter(callback) {
 
 	function getListDataFromListElement()
 	{
-		var sort_temp = listData['sort'];
 		listData = {};
-		listData['sort'] = sort_temp;
 		for(var key in listElement)
 		{
 			if(key == 'price')
 			{
-				listData[key] = [];
-				listData[key][0] = listElement[key].dataset.min;
-				listData[key][1] = listElement[key].dataset.max;
+				temp = listElement[key].dataset.min;
+				if(temp != '0') {
+					listData['pricemin'] = parseInt(temp);
+				}
+
+				temp = listElement[key].dataset.max;
+				if(temp != 'inf') {
+					listData['pricemax'] = parseInt(temp);
+				}
 			}
 			else {
 				listData[key] = listElement[key].dataset.index;
@@ -73,7 +83,15 @@ function filterAndSorter(callback) {
 		}
 	}
 
-	function updateNumberFilter() { filterNumber.innerText = (Object.keys(listData).length - 1); }
+	function updateNumberFilter() { filterNumber.innerText = (Object.keys(listData).length); }
+
+	function invoke() {
+		if(typeof callback === 'function')
+		{
+			temp = Object.assign({'filter' : listData}, sortData);
+			callback(temp);
+		}
+	}
 
 	function handleEventClickApply()
 	{
@@ -92,10 +110,7 @@ function filterAndSorter(callback) {
 		getListDataFromListElement();
 		updateNumberFilter();
 		closePopupElement();
-		if(typeof callback === 'function')
-		{
-			callback(listData);
-		}
+		invoke();
 	}
 
 	function handleEventClickExit() 
@@ -108,17 +123,17 @@ function filterAndSorter(callback) {
 	function deleteOneCategoryFilter(categoryFilter) {
 		delete listElement[categoryFilter.dataset.name + ""];
 		delete listData[categoryFilter.dataset.name + ""];
-		[...categoryFilter.querySelectorAll('.filter__list__item')].forEach(ele => deActiveFilterItemValue(ele));
-		console.log(listData);
+		categoryFilter.querySelectorAll('.filter__list__item').forEach(ele => deActiveFilterItemValue(ele));
+		invoke();
 	}
 
 	function deleteAllCategoryFilter()
 	{
-		[...filter.querySelectorAll('.filter__category__content')].forEach(ele => deleteOneCategoryFilter(ele));
+		filter.querySelectorAll('.filter__category__content').forEach(ele => deleteOneCategoryFilter(ele));
 	}
 
 	// Event CLick Open popupElement
-	[...filter.querySelectorAll('.filter__text__body')].forEach(ele => {
+	filter.querySelectorAll('.filter__text__body').forEach(ele => {
 		ele.addEventListener('click', (e) => {
 			handleEventClickExit();
 			popupElement = getParentBySelector(e.target,'.filter__category');
@@ -139,7 +154,7 @@ function filterAndSorter(callback) {
 	filter.querySelector('.filter__close').addEventListener('click', () => handleEventClickExit());
 
 	//Event Delete All ItemFilterValue
-	[...filter.querySelectorAll('.filter__apply__exit:not(.all)')].forEach(ele => {
+	filter.querySelectorAll('.filter__apply__exit:not(.all)').forEach(ele => {
 		ele.addEventListener('click', (e) => {
 			deleteOneCategoryFilter(getParentBySelector(e.target,'.filter__category__content'));
 			updateNumberFilter();
@@ -154,9 +169,9 @@ function filterAndSorter(callback) {
 	});
 
 	// Handle Click FilterElementValue
-	[...filter.querySelectorAll('.filter__list__item')].forEach(ele => {
+	filter.querySelectorAll('.filter__list__item').forEach(ele => {
 		ele.addEventListener('click', function() {
-			var temp = getParentBySelector(this,'.filter__category__content');
+			let temp = getParentBySelector(this,'.filter__category__content');
 			listElementTemp[temp.dataset.name] = this;
 			if(isActiveFilterItemValue(this)) 
 			{
@@ -170,32 +185,57 @@ function filterAndSorter(callback) {
 	});
 
 	// Handle Click Apply
-	[...filter.querySelectorAll('.filter__apply__agree')].forEach(ele => {
+	filter.querySelectorAll('.filter__apply__agree').forEach(ele => {
 		ele.addEventListener('click', (e) => {
 			handleEventClickApply();
 		});
 	});
 
+	// Setup categoryId When Load Page
+	if(categoryid != null) {
+		temp = filter.querySelector('[data-name="categoryid"]');
+		[...temp.querySelectorAll('.filter__list__item')].find(ele => ele.dataset.index == categoryid).click();
+		temp.querySelector('.filter__apply__agree').click();
+	}
+	else {
+		invoke();
+	}
+
 	/***** Sort *******/
 	var selectElement = sort.querySelector('.sort__item');
-	listData['sort'] = selectElement.dataset.sort;
 	sort.querySelector('.sort__header').addEventListener('click', (e) => {
 		handleClass(sort,'toggle',active);
 	});
 
-	[...sort.querySelectorAll('.sort__item')].forEach(ele => {
+	sort.querySelectorAll('.sort__item').forEach(ele => {
 		ele.addEventListener('click', function() {
 			if(selectElement)
 			{
 				handleClass(selectElement,'remove',active);
 			}
-			listData['sort'] = this.dataset.sort;
+			switch(this.dataset.sort) {
+				case '0' : 
+					sortData['sortName'] = 'view';
+					sortData['sortBy'] = 'desc';
+					break;
+				case '1' : 
+					sortData['sortName'] = 'price';
+					sortData['sortBy'] = 'asc';
+					break;
+				case '2':
+					sortData['sortName'] = 'price';
+					sortData['sortBy'] = 'desc';
+					break;
+				case '3':
+					sortData['sortName'] = 'percentdes';
+					sortData['sortBy'] = 'desc';
+			}
+
 			selectElement = this;
 			handleClass(selectElement,'add',active);
-			if(typeof callback === 'function')
-			{
-				callback(listData);
-			}
+			invoke();
+			handleClass(sort,'toggle',active);
 		});
 	});
+
 };

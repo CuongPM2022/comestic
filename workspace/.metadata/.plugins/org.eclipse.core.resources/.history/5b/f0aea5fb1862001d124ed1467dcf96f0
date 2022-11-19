@@ -1,5 +1,0 @@
-package com.comestic.dao;
-
-public interface IStatisticDAO {
-	StatisticModel getStatistic();
-}

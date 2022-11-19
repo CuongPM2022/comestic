@@ -1,7 +1,0 @@
-package com.comestic.dao;
-
-import com.comestic.model.UserModel;
-
-public interface IUserDAO {
-	Long  getUserIdByUsernameAndPassword(String username, String password);
-}

@@ -1,7 +1,0 @@
-package com.comestic.dao;
-
-import com.comestic.model.UserModel;
-
-public interface IUserDAO {
-	UserModel findOneByUserNameAndPassword(String username, String password);
-}

@@ -18212,3 +18212,742 @@
 2022-11-17 08:58:04,147 [Worker-213: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
 2022-11-17 08:58:04,147 [Worker-213: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
 2022-11-17 08:58:04,149 [Worker-213: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:54:00,521 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-19 07:55:18,252 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:55:18,254 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:55:18,257 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:55:18,258 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 07:55:32,521 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:55:32,523 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:55:32,525 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:55:32,526 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 07:55:40,260 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:55:40,262 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:55:40,264 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:55:40,265 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 07:56:06,891 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:56:06,892 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:56:06,894 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:56:06,895 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 07:57:16,044 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:57:16,046 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:57:16,049 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:57:16,050 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 07:57:21,358 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:57:21,359 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:57:21,362 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:57:21,363 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 07:57:31,875 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:57:31,877 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:57:31,879 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:57:31,881 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 07:57:54,313 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:57:54,315 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:57:54,319 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:57:54,321 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 07:58:07,712 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:58:07,715 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:58:07,720 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:58:07,724 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 07:58:30,160 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:58:30,162 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:58:30,163 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:58:30,164 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 07:58:49,448 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:58:49,450 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:58:49,451 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:58:49,453 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 07:59:27,131 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:59:27,132 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:59:27,135 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:59:27,137 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 07:59:44,980 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:59:44,983 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:59:44,986 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:59:44,988 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 07:59:49,004 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:59:49,006 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 07:59:49,007 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 07:59:49,008 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:00:07,139 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:00:07,141 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:00:07,143 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:00:07,145 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:00:18,408 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:00:18,410 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:00:18,416 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:00:18,418 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:00:40,289 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:00:40,292 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:00:40,296 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:00:40,299 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:01:15,656 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:01:15,658 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:01:15,660 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:01:15,661 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:01:49,363 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:01:49,365 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:01:49,367 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:01:49,369 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:02:19,485 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:02:19,487 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:02:19,489 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:02:19,490 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:02:36,433 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:02:36,434 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:02:36,436 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:02:36,437 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:02:41,674 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:02:41,677 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:02:41,680 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:02:41,683 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:03:09,545 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:03:09,548 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:03:09,551 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:03:09,554 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:03:19,614 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:03:19,616 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:03:19,617 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:03:19,619 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:03:27,512 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:03:27,514 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:03:27,517 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:03:27,519 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:03:56,754 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:03:56,756 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:03:56,757 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:03:56,759 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:04:34,311 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:04:34,312 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:04:34,314 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:04:34,316 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:04:51,455 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:04:51,457 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:04:51,459 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:04:51,460 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:05:09,329 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:05:09,330 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:05:09,333 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:05:09,335 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:05:29,413 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:05:29,416 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:05:29,419 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:05:29,421 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:06:08,308 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:06:08,310 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:06:08,312 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:06:08,314 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:06:34,898 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:06:34,899 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:06:34,901 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:06:34,902 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:06:43,046 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:06:43,048 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:06:43,049 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:06:43,050 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:07:28,034 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:07:28,036 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:07:28,039 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:07:28,041 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:08:37,086 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:08:37,087 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:08:37,089 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:08:37,091 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:08:42,772 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:08:42,774 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:08:42,776 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:08:42,777 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:08:58,200 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:08:58,202 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:08:58,203 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:08:58,205 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:09:31,035 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:09:31,036 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:09:31,037 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:09:31,039 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:09:42,294 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:09:42,296 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:09:42,298 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:09:42,299 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:09:52,628 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:09:52,630 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:09:52,633 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:09:52,636 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:12:03,346 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:12:03,347 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:12:03,349 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:12:03,350 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:12:31,286 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:12:31,288 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:12:31,289 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:12:31,290 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:13:12,595 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:13:12,596 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:13:12,598 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:13:12,599 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:13:42,298 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:13:42,300 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:13:42,301 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:13:42,303 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:14:23,747 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:14:23,748 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:14:23,750 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:14:23,751 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:14:29,644 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:14:29,646 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:14:29,649 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:14:29,651 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:15:02,828 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:15:02,830 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:15:02,831 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:15:02,832 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:15:27,441 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:15:27,443 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:15:27,445 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:15:27,446 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:28:44,306 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:28:44,307 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:28:44,308 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:28:44,309 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:28:52,681 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:28:52,682 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:28:52,684 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:28:52,685 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:29:26,176 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:29:26,178 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:29:26,179 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:29:26,181 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:29:32,357 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:29:32,359 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:29:32,360 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:29:32,361 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:29:59,701 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:29:59,702 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:29:59,704 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:29:59,705 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:30:15,297 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:30:15,298 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:30:15,300 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:30:15,301 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:30:25,456 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:30:25,457 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:30:25,458 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:30:25,459 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:31:04,204 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:31:04,205 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:31:04,206 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:31:04,207 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:31:45,433 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:31:45,435 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:31:45,438 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:31:45,440 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:34:47,559 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:34:47,563 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:34:47,565 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:34:47,567 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:34:59,478 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:34:59,481 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:34:59,483 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:34:59,485 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:35:26,547 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:35:26,549 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:35:26,551 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:35:26,553 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:35:54,346 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:35:54,347 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:35:54,348 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:35:54,350 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:36:01,141 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:36:01,144 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:36:01,147 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:36:01,150 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:36:13,670 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:36:13,672 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:36:13,674 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:36:13,676 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:36:39,733 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:36:39,735 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:36:39,737 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:36:39,738 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:37:01,753 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:37:01,754 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:37:01,755 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:37:01,756 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:37:07,765 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:37:07,767 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:37:07,769 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:37:07,772 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:37:09,785 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:37:09,786 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:37:09,787 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:37:09,788 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:37:21,151 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:37:21,152 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:37:21,153 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:37:21,154 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:38:22,482 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:38:22,484 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:38:22,487 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:38:22,489 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:38:28,031 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:38:28,032 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:38:28,033 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:38:28,034 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:38:41,840 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:38:41,843 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:38:41,847 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:38:41,849 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:40:27,476 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:40:27,477 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:40:27,479 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:40:27,479 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:41:38,678 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:41:38,679 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:41:38,681 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:41:38,682 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:42:06,687 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:42:06,689 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:42:06,690 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:42:06,690 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:45:26,889 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:45:26,893 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:45:26,895 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:45:26,896 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:45:32,502 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 08:45:33,257 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 08:45:34,615 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 08:45:34,617 [Worker-28: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 08:45:35,482 [Worker-28: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 08:45:35,499 [Worker-28: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-11-19 08:45:36,124 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:45:36,125 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:45:36,127 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:45:36,128 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:45:36,128 [Worker-29: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 08:45:36,129 [Worker-29: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 08:45:36,145 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:51:05,379 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 08:51:05,876 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 08:51:06,819 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 08:51:06,820 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 08:51:07,511 [Worker-24: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 08:51:07,523 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2022-11-19 08:51:08,935 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:51:08,937 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:51:08,940 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:51:08,941 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:51:08,942 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 08:51:08,942 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 08:51:08,947 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:55:20,841 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 08:55:21,286 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 08:55:22,108 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 08:55:22,108 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 08:55:22,731 [Worker-41: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 08:55:22,766 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 08:55:23,284 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:55:23,286 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:55:23,288 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:55:23,289 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:55:23,289 [Worker-50: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 08:55:23,289 [Worker-50: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 08:55:23,294 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:57:00,958 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 08:57:01,394 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 08:57:02,156 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 08:57:02,156 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 08:57:02,764 [Worker-41: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 08:57:02,772 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 08:57:03,262 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:57:03,263 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 08:57:03,266 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 08:57:03,267 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 08:57:03,267 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 08:57:03,267 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 08:57:03,272 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:10:59,358 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:10:59,775 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:11:00,502 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:11:00,502 [Worker-41: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:11:01,033 [Worker-41: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:11:01,051 [Worker-41: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:11:01,712 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:11:01,713 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:11:01,715 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:11:01,717 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:11:01,717 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:11:01,718 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:11:01,723 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:16:37,344 [Worker-60: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:16:37,760 [Worker-60: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:16:38,480 [Worker-60: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:16:38,480 [Worker-60: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:16:39,014 [Worker-60: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:16:39,025 [Worker-60: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:16:39,634 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:16:39,636 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:16:39,638 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:16:39,639 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:16:39,639 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:16:39,639 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:16:39,644 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:21:33,237 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:21:33,664 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:21:34,286 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:21:34,287 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:21:34,771 [Worker-68: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:21:34,778 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:21:35,310 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:21:35,311 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:21:35,313 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:21:35,315 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:21:35,315 [Worker-72: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:21:35,315 [Worker-72: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:21:35,320 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:24:16,918 [Worker-72: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:24:17,327 [Worker-72: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:24:18,019 [Worker-72: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:24:18,020 [Worker-72: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:24:18,565 [Worker-72: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:24:18,572 [Worker-72: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:24:19,116 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:24:19,117 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:24:19,119 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:24:19,120 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:24:19,120 [Worker-87: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:24:19,120 [Worker-87: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:24:19,124 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:25:23,942 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:25:23,943 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:25:23,944 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:25:23,944 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:27:14,071 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:27:14,489 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:27:15,187 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:27:15,188 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:27:15,703 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:27:15,711 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:27:16,227 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:27:16,229 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:27:16,231 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:27:16,233 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:27:16,233 [Worker-90: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:27:16,233 [Worker-90: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:27:16,239 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:28:07,479 [Worker-90: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:28:07,879 [Worker-90: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:28:08,563 [Worker-90: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:28:08,563 [Worker-90: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:28:09,041 [Worker-90: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:28:09,049 [Worker-90: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:28:09,563 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:28:09,564 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:28:09,565 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:28:09,566 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:28:09,567 [Worker-52: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:28:09,567 [Worker-52: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:28:09,571 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:32:24,411 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:32:24,813 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:32:25,538 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:32:25,539 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:32:26,019 [Worker-93: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:32:26,026 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:32:26,510 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:32:26,512 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:32:26,514 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:32:26,515 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:32:26,515 [Worker-105: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:32:26,515 [Worker-105: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:32:26,519 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:38:04,989 [Worker-112: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:38:05,383 [Worker-112: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:38:06,040 [Worker-112: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:38:06,040 [Worker-112: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:38:06,516 [Worker-112: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:38:06,524 [Worker-112: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:38:06,982 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:38:06,983 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:38:06,985 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:38:06,986 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:38:06,987 [Worker-116: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:38:06,987 [Worker-116: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:38:06,991 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:43:20,666 [Worker-111: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:43:21,078 [Worker-111: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:43:21,856 [Worker-111: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:43:21,856 [Worker-111: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:43:22,393 [Worker-111: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:43:22,400 [Worker-111: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:43:23,535 [Worker-126: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:43:23,537 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:43:23,538 [Worker-126: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:43:23,539 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:43:23,539 [Worker-126: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:43:23,540 [Worker-126: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:43:23,542 [Worker-126: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:44:59,938 [Worker-131: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:45:00,330 [Worker-131: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:45:00,992 [Worker-131: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:45:00,992 [Worker-131: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:45:01,486 [Worker-131: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:45:01,496 [Worker-131: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:45:01,957 [Worker-136: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:45:01,958 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:45:01,960 [Worker-136: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:45:01,961 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:45:01,961 [Worker-136: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:45:01,961 [Worker-136: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:45:01,964 [Worker-136: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:48:14,424 [Worker-143: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:48:14,808 [Worker-143: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:48:15,424 [Worker-143: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:48:15,425 [Worker-143: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:48:16,031 [Worker-143: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:48:16,043 [Worker-143: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:48:16,505 [Worker-142: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:48:16,506 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:48:16,507 [Worker-142: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:48:16,509 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:48:16,509 [Worker-142: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:48:16,509 [Worker-142: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:48:16,514 [Worker-142: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:50:49,487 [Worker-147: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:50:49,886 [Worker-147: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:50:50,517 [Worker-147: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:50:50,517 [Worker-147: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:50:50,997 [Worker-147: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:50:51,005 [Worker-147: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:50:51,485 [Worker-142: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:50:51,486 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:50:51,488 [Worker-142: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:50:51,489 [Worker-142: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:50:51,489 [Worker-142: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:50:51,489 [Worker-142: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:50:51,493 [Worker-142: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:51:48,311 [Worker-162: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:51:48,704 [Worker-162: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:51:49,293 [Worker-162: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:51:49,293 [Worker-162: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:51:49,800 [Worker-162: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:51:49,806 [Worker-162: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:51:50,254 [Worker-163: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:51:50,254 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:51:50,256 [Worker-163: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:51:50,256 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:51:50,257 [Worker-163: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:51:50,257 [Worker-163: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:51:50,260 [Worker-163: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:53:18,753 [Worker-160: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 09:53:19,152 [Worker-160: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 09:53:19,822 [Worker-160: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 09:53:19,823 [Worker-160: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 09:53:20,305 [Worker-160: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 09:53:20,311 [Worker-160: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 09:53:20,742 [Worker-163: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:53:20,743 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 09:53:20,744 [Worker-163: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 09:53:20,745 [Worker-163: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 09:53:20,746 [Worker-163: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 09:53:20,746 [Worker-163: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 09:53:20,749 [Worker-163: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:14:35,304 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 10:14:35,690 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 10:14:36,329 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 10:14:36,330 [Worker-174: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 10:14:36,917 [Worker-174: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 10:14:36,924 [Worker-174: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 10:14:37,391 [Worker-176: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:14:37,392 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 10:14:37,393 [Worker-176: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:14:37,394 [Worker-176: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 10:14:37,394 [Worker-176: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 10:14:37,394 [Worker-176: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 10:14:37,397 [Worker-176: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:16:06,022 [Worker-177: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 10:16:06,417 [Worker-177: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 10:16:07,063 [Worker-177: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 10:16:07,063 [Worker-177: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 10:16:07,602 [Worker-177: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 10:16:07,610 [Worker-177: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 10:16:08,107 [Worker-183: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:16:08,108 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 10:16:08,109 [Worker-183: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:16:08,110 [Worker-183: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 10:16:08,110 [Worker-183: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 10:16:08,110 [Worker-183: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 10:16:08,113 [Worker-183: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:17:20,220 [Worker-189: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 10:17:20,611 [Worker-189: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 10:17:21,310 [Worker-189: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 10:17:21,310 [Worker-189: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 10:17:21,783 [Worker-189: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 10:17:21,789 [Worker-189: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 10:17:22,346 [Worker-193: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:17:22,347 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 10:17:22,349 [Worker-193: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:17:22,350 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 10:17:22,351 [Worker-193: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 10:17:22,351 [Worker-193: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 10:17:22,354 [Worker-193: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:33:03,871 [Worker-201: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 10:33:04,316 [Worker-201: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 10:33:04,973 [Worker-201: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 10:33:04,973 [Worker-201: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 10:33:05,462 [Worker-201: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 10:33:05,470 [Worker-201: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 10:33:06,011 [Worker-200: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:33:06,012 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 10:33:06,014 [Worker-200: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:33:06,015 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 10:33:06,016 [Worker-200: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 10:33:06,016 [Worker-200: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 10:33:06,021 [Worker-200: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:36:38,728 [Worker-211: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 10:36:39,108 [Worker-211: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 10:36:39,750 [Worker-211: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 10:36:39,751 [Worker-211: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 10:36:40,219 [Worker-211: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 10:36:40,226 [Worker-211: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 10:36:40,690 [Worker-200: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:36:40,691 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 10:36:40,693 [Worker-200: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:36:40,693 [Worker-200: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 10:36:40,694 [Worker-200: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 10:36:40,694 [Worker-200: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 10:36:40,697 [Worker-200: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:39:44,991 [Worker-218: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 10:39:45,371 [Worker-218: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 10:39:46,108 [Worker-218: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 10:39:46,108 [Worker-218: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 10:39:46,597 [Worker-218: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 10:39:46,604 [Worker-218: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 10:39:47,097 [Worker-212: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:39:47,098 [Worker-212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 10:39:47,099 [Worker-212: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:39:47,100 [Worker-212: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 10:39:47,100 [Worker-212: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 10:39:47,101 [Worker-212: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 10:39:47,104 [Worker-212: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:40:05,905 [Worker-223: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 10:40:06,279 [Worker-223: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 10:40:06,870 [Worker-223: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 10:40:06,871 [Worker-223: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 10:40:07,343 [Worker-223: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 10:40:07,351 [Worker-223: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 10:40:07,832 [Worker-228: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:40:07,833 [Worker-228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 10:40:07,836 [Worker-228: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:40:07,837 [Worker-228: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 10:40:07,838 [Worker-228: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 10:40:07,838 [Worker-228: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 10:40:07,842 [Worker-228: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:41:34,005 [Worker-212: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 10:41:34,388 [Worker-212: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 10:41:34,995 [Worker-212: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 10:41:34,995 [Worker-212: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 10:41:35,479 [Worker-212: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 10:41:35,485 [Worker-212: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 10:41:35,949 [Worker-225: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:41:35,950 [Worker-225: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 10:41:35,951 [Worker-225: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:41:35,951 [Worker-225: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 10:41:35,952 [Worker-225: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 10:41:35,952 [Worker-225: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 10:41:35,955 [Worker-225: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:45:42,822 [Worker-218: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 10:45:43,222 [Worker-218: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 10:45:43,858 [Worker-218: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 10:45:43,859 [Worker-218: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 10:45:44,332 [Worker-218: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 10:45:44,339 [Worker-218: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 10:45:44,811 [Worker-239: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:45:44,812 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 10:45:44,814 [Worker-239: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:45:44,815 [Worker-239: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 10:45:44,815 [Worker-239: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 10:45:44,815 [Worker-239: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 10:45:44,820 [Worker-239: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:47:18,783 [Worker-224: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 10:47:19,170 [Worker-224: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 10:47:19,896 [Worker-224: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 10:47:19,896 [Worker-224: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 10:47:20,351 [Worker-224: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 10:47:20,357 [Worker-224: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 10:47:20,824 [Worker-245: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:47:20,825 [Worker-245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 10:47:20,827 [Worker-245: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:47:20,828 [Worker-245: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 10:47:20,828 [Worker-245: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 10:47:20,828 [Worker-245: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 10:47:20,831 [Worker-245: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:59:51,983 [Worker-267: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:59:51,985 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 10:59:51,986 [Worker-267: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 10:59:51,987 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 11:00:03,587 [Worker-266: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:00:03,588 [Worker-266: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 11:00:03,590 [Worker-266: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:00:03,591 [Worker-266: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 11:01:38,995 [Worker-267: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:01:38,996 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 11:01:38,997 [Worker-267: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:01:38,998 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 11:01:46,137 [Worker-268: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:01:46,138 [Worker-268: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 11:01:46,140 [Worker-268: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:01:46,141 [Worker-268: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 11:02:23,990 [Worker-266: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:02:23,991 [Worker-266: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 11:02:23,992 [Worker-266: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:02:23,992 [Worker-266: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 11:02:35,429 [Worker-267: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:02:35,430 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 11:02:35,431 [Worker-267: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:02:35,432 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 11:03:09,407 [Worker-270: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:03:09,408 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 11:03:09,410 [Worker-270: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:03:09,410 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 11:04:35,326 [Worker-267: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:04:35,327 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 11:04:35,328 [Worker-267: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:04:35,329 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 11:06:24,204 [Worker-268: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:06:24,205 [Worker-268: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 11:06:24,206 [Worker-268: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:06:24,207 [Worker-268: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 11:11:42,176 [Worker-272: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 11:11:42,580 [Worker-272: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 11:11:43,228 [Worker-272: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 11:11:43,229 [Worker-272: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 11:11:43,701 [Worker-272: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 11:11:43,709 [Worker-272: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 11:11:44,134 [Worker-272: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:11:44,135 [Worker-272: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 11:11:44,136 [Worker-272: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:11:44,137 [Worker-272: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 11:11:44,137 [Worker-272: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 11:11:44,137 [Worker-272: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 11:11:44,139 [Worker-272: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:14:18,603 [Worker-273: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:14:18,604 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 11:14:18,605 [Worker-273: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:14:18,605 [Worker-273: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 11:14:46,200 [Worker-272: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:14:46,202 [Worker-272: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 11:14:46,204 [Worker-272: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:14:46,206 [Worker-272: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 11:14:51,623 [Worker-272: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-11-19 11:14:52,013 [Worker-272: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.comestic:com.comestic:1.0 @ C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\pom.xml.
+2022-11-19 11:14:52,749 [Worker-272: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/main/java
+2022-11-19 11:14:52,750 [Worker-272: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /com.comestic/src/test/java
+2022-11-19 11:14:53,283 [Worker-272: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for com.comestic
+2022-11-19 11:14:53,290 [Worker-272: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-11-19 11:14:53,768 [Worker-274: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:14:53,769 [Worker-274: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\main\resources
+2022-11-19 11:14:53,770 [Worker-274: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-11-19 11:14:53,771 [Worker-274: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\oOOo\Desktop\HKII_21_22\java\ecom\workspace\com.comestic\src\test\resources
+2022-11-19 11:14:53,771 [Worker-274: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of com.comestic
+2022-11-19 11:14:53,771 [Worker-274: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for com.comestic
+2022-11-19 11:14:53,774 [Worker-274: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

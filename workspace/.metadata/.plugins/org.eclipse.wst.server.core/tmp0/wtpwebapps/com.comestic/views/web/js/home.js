@@ -80,7 +80,7 @@ function slider() {
 			data.listData.forEach(category => {
 				str += `
 					<li class="slider__category__item">
-						<a href="#">
+						<a href="/product?action=allProduct&categoryId=${category.id}">
 							<span class="slider__item__icon"> 
 								<img src="${category.imageName}">
 							</span> <span class="slider__item__text">${category.name}</span> <!-- active: .active -->

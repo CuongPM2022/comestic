@@ -1,0 +1,13 @@
+package com.comestic.dao.implement;
+
+import com.comestic.dao.IManufactureDAO;
+import com.comestic.model.ManufactureModel;
+
+public class ManufactureDAO extends AbstractDAO<ManufactureModel> implements IManufactureDAO {
+
+	@Override
+	public ManufactureModel findAll() {
+		StringBuilder sql = new StringBuilder("select * from manufacture");
+	}
+
+}

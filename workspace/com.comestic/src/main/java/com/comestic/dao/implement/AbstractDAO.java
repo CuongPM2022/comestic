@@ -198,8 +198,14 @@ public class AbstractDAO<T> implements IAbstractDAO<T> {
 		if (paging != null) {
 			setFilter(sql, paging);
 
-			if (paging.getSortName() != null) {
-				sql.append(MessageFormat.format(" order by {0} {1}", paging.getSortName(), paging.getSortBy()));
+			String sortName = paging.getSortName();
+			if (sortName != null) {
+				if(sortName.equals("price")) {
+					sql.append(MessageFormat.format(" order by price*(1-percentdes/100) {0}", paging.getSortBy()));
+				}
+				else {
+					sql.append(MessageFormat.format(" order by {0} {1}", sortName, paging.getSortBy()));
+				}
 			}
 
 			if (paging.getOffset() != null) {
@@ -221,9 +227,9 @@ public class AbstractDAO<T> implements IAbstractDAO<T> {
 					if (key.equals("manufactureid") || key.equals("categoryid") || key.equals("stateid")) {
 						sql.append(MessageFormat.format(" and {0}={1}", key, temp.get(key).toString()));
 					} else if (key.equals("pricemin")) {
-						sql.append(MessageFormat.format(" and price>={0}", temp.get(key).toString()));
+						sql.append(MessageFormat.format(" and price*(1-percentdes/100)>={0}", temp.get(key).toString()));
 					} else if (key.equals("pricemax")) {
-						sql.append(MessageFormat.format(" and price<={0}", temp.get(key).toString()));
+						sql.append(MessageFormat.format(" and price*(1-percentdes/100)<={0}", temp.get(key).toString()));
 					} else if (key.equals("sale")) {
 						sql.append(" and percentdes!=0");
 					}

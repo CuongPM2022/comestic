@@ -1,7 +1,0 @@
-package com.comestic.service;
-
-import com.comestic.model.UserModel;
-
-public interface IUserService {
-	UserModel findOneByUserNameAndPassWord(String username, String password);
-}

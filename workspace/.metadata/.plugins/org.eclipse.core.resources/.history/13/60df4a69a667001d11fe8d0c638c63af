@@ -1,0 +1,8 @@
+package com.comestic.dao;
+
+import com.comestic.dao.implement.List;
+import com.comestic.model.ManufactureModel;
+
+public interface IManufactureDAO {
+	List<ManufactureModel> findAll();
+}

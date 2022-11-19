@@ -1,0 +1,5 @@
+package com.comestic.service;
+
+public interface IManufactureService {
+
+}

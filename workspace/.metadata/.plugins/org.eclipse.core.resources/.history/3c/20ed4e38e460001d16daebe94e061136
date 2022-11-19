@@ -1,5 +1,0 @@
-package com.comestic.service;
-
-public interface IUserService {
-	Long  getUserIdByUserModel(UserModel userModel);
-}

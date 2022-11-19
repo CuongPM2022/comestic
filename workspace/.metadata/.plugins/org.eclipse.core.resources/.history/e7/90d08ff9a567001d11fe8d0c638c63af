@@ -1,0 +1,17 @@
+package com.comestic.dao.mapper;
+
+import java.sql.ResultSet;
+
+import com.comestic.model.ManufactureModel;
+
+public class ManufactureMapper implements IRowMapper<ManufactureModel> {
+
+	@Override
+	public ManufactureModel mapRow(ResultSet resultSet) {
+		ManufactureModel manufactureModel = null;
+		if(resultSet != null) {
+			
+		}
+	}
+
+}

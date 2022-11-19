@@ -1,0 +1,21 @@
+package com.comestic.service.implement;
+
+import java.util.List;
+
+import javax.inject.Inject;
+
+import com.comestic.dao.IManufactureDAO;
+import com.comestic.model.ManufactureModel;
+import com.comestic.service.IManufactureService;
+
+public class ManufactureService implements IManufactureService {
+	
+	@Inject
+	IManufactureDAO manufactureDAO;
+
+	@Override
+	public List<ManufactureModel> findAll() {
+		return manufactureDAO.findAll();
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.comestic.dao.implement;
+
+import com.comestic.dao.IManufactureDAO;
+
+public class ManufactureDAO implements IManufactureDAO {
+
+}
