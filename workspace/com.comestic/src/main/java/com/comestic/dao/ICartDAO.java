@@ -18,4 +18,5 @@ public interface ICartDAO {
 	Integer getTotalBill(Paging paging);
 	Integer getTotalCancelBill(Paging paging);
 	Double getTotalMoney(Paging paging);
+	void deleteOne(Long id);
 }

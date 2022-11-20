@@ -163,5 +163,13 @@ public class CartDAO extends AbstractDAO<CartModel> implements ICartDAO {
 		setPagingHasFilterDate(sql, paging, this.listInput);
 		return count(sql.toString(), this.listInput);
 	}
+
+	@Override
+	public void deleteOne(Long id) {
+		cartItemDAO.deleteAllByCartId(id);
+		StringBuilder sql = new StringBuilder("delete from bill where id=");
+		sql.append(id);
+		update(sql.toString());
+	}
 	
 }

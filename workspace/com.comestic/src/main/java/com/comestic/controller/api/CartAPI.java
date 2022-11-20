@@ -105,5 +105,23 @@ public class CartAPI extends HttpServlet {
 		}
 	}
 	
+	@Override
+	protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String action = req.getParameter("action");
+		ObjectMapper mapper = new ObjectMapper();
+		if(action != null && Check.isLogin(req)) {
+			if(action.equals("deleteAll")) {
+				Long[] ids = (new HttpUtil(req.getParameter("ids"))).toModel(Long[].class);
+				if(ids != null) {
+					cartService.deleteAll(ids);
+					mapper.writeValue(resp.getOutputStream(), true);
+				}
+			}
+		}
+		else {
+			mapper.writeValue(resp.getOutputStream(), null);
+		}
+	}
+	
 
 }

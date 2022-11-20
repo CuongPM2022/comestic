@@ -60,4 +60,11 @@ public class CartService implements ICartService {
 		cartDAO.updateStateForBill(cartModel);
 	}
 
+	@Override
+	public void deleteAll(Long[] ids) {
+		for(Long id:ids) {
+			cartDAO.deleteOne(id);
+		}
+	}
+
 }

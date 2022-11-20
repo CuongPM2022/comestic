@@ -28,7 +28,8 @@ function listTable(listSelector, callback)
 			this.table.querySelectorAll('tbody tr input[type="checkbox"]').forEach(ele => {
 				if(ele.checked)
 				{
-					this.lisData.push(this.getParentElementBySelector(ele,'tr').dataset.key);
+					this.temp = this.getParentElementBySelector(ele,'tr').dataset.key;
+					this.lisData.push(parseInt(this.temp));
 				}
 			});
 			return this.lisData;
@@ -133,10 +134,13 @@ function listTable(listSelector, callback)
 
 				if(typeof callback === 'function' && action != '')
 				{
+					this.temp = parseInt(this.getParentElementBySelector(element,'tr').dataset.key);
+					if(action == 'delete') {
+						this.temp = [this.temp];
+					}
 					callback({
 						'action' : action,
-						'data' : this.getParentElementBySelector(element,'tr')
-								 .dataset.key
+						'data' : this.temp
 					});
 				}
 			});

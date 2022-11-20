@@ -67,6 +67,13 @@ public class CartItemDAO extends AbstractDAO<CartItemModel> implements ICartItem
 		sql.append(" and vi.imageid = i.id and billid = " + cartId);
 		return query(sql.toString(), new CartItemDetailMapper());
 	}
+
+	@Override
+	public void deleteAllByCartId(Long cartId) {
+		StringBuilder sql = new StringBuilder("delete from bill_detail where billid=");
+		sql.append(cartId);
+		update(sql.toString());
+	}
 	
 	
 

@@ -25,6 +25,14 @@
                 .then(data => callback(data));
     }
 
+    function deleteData(path, callback) {
+        return fetch(path, {
+                    'method' : 'DELETE',
+                })
+                .then(response => response.json())
+                .then(data => callback(data));
+    }
+
     //Functions Common
     function handleClass(element, action, value = active) {
         if(action == 'add') {
@@ -104,9 +112,23 @@
     //handle Event
     new listTable('#list_contain', function(data) {
         const action = data.action;
-        console.log(data);
         if(action == 'detail') {
             window.location = `/admin-bill?action=billDetail&billId=${data.data}`;
+        }
+        if(action == 'delete') {
+            let agree = confirm('Bạn muốn xóa dữ liệu?');
+            if(!agree) { return; }
+
+            const ids = encodeURIComponent(JSON.stringify(data.data));
+            deleteData(`/api-cart?action=deleteAll&ids=${ids}`, data => {
+                if(data == true) {
+                    alert('Xóa thành công!');
+                    window.location.reload();
+                }
+                else {
+                    alert('Đã xảy ra lỗi. Không thể xóa dữ liệu!');
+                }
+            });
         }
     });
 

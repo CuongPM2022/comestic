@@ -16,4 +16,5 @@ public interface ICartService {
 	Long save(CartModel cartModel);
 	List<BillStateModel> findAllBillState();
 	void updateStateForBill(CartModel cartModel);
+	void deleteAll(Long[] ids);
 }

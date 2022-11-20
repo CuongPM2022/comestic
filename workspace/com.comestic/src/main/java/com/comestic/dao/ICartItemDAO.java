@@ -9,4 +9,5 @@ public interface ICartItemDAO {
 	CartItemModel findOneByVarietyId(Long varietyId);
 	Integer getNumberOfVarietyById(Long varietyId);
 	Long save(CartItemModel cartItemModel);
+	void deleteAllByCartId(Long cartId);
 }

@@ -31,7 +31,6 @@
     <fullyQualifiedTypeName name="com.comestic.dao.IBillStateDAO"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
     <fullyQualifiedTypeName name="com.comestic.utils.SessionUtil"/>
-    <fullyQualifiedTypeName name="com.comestic.utils.Check"/>
     <fullyQualifiedTypeName name="com.comestic.dao.IStatisticDAO"/>
     <fullyQualifiedTypeName name="org.apache.catalina.tribes.membership.StaticMember"/>
     <fullyQualifiedTypeName name="com.comestic.dao.ICartDAO"/>
@@ -43,21 +42,22 @@
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="com.comestic.utils.Paging"/>
-    <fullyQualifiedTypeName name="com.comestic.utils.HttpUtil"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="com.comestic.model.AbstractModel"/>
     <fullyQualifiedTypeName name="com.comestic.dao.implement.AbstractDAO"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="com.comestic.dao.mapper.IRowMapper"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="com.comestic.model.ManufactureModel"/>
     <fullyQualifiedTypeName name="com.comestic.dao.mapper.ManufactureMapper"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.comestic.dao.IManufactureDAO"/>
-    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
     <fullyQualifiedTypeName name="com.comestic.service.IManufactureService"/>
     <fullyQualifiedTypeName name="javax.inject.Inject"/>
     <fullyQualifiedTypeName name="java.text.MessageFormat"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+    <fullyQualifiedTypeName name="com.comestic.utils.HttpUtil"/>
+    <fullyQualifiedTypeName name="com.comestic.utils.Check"/>
 </qualifiedTypeNameHistroy>

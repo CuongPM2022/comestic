@@ -121,8 +121,17 @@ function filterAndSorter(callback) {
 	}
 
 	function deleteOneCategoryFilter(categoryFilter) {
-		delete listElement[categoryFilter.dataset.name + ""];
-		delete listData[categoryFilter.dataset.name + ""];
+		temp = categoryFilter.dataset.name;
+		if(temp == 'price') {
+			delete listElement['price'];
+			delete listData['pricemin'];
+			delete listData['pricemax'];
+		}
+		else {
+			delete listElement[temp + ""];
+			delete listData[temp + ""];
+		}
+
 		categoryFilter.querySelectorAll('.filter__list__item').forEach(ele => deActiveFilterItemValue(ele));
 		invoke();
 	}
