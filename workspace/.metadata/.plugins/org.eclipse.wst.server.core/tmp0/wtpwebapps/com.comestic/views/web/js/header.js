@@ -34,7 +34,9 @@ function header(fixedMenuOnScroll = true)
 	getData('/api-category?action=allCategory', data => {
 		let str = '';
 		data.listData.forEach(category => {
-			str += `<li class="header__category__item"><a href="#">${category.name}</a></li>`;
+			str += `<li class="header__category__item">
+						<a href="/product?action=allProduct&categoryId=${category.id}">${category.name}</a>
+					</li>`;
 		});
 		$('.header__category').innerHTML = str;
 	});

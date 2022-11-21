@@ -42,9 +42,6 @@
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="com.comestic.utils.Paging"/>
-    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
-    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
-    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="com.comestic.model.AbstractModel"/>
     <fullyQualifiedTypeName name="com.comestic.dao.implement.AbstractDAO"/>
     <fullyQualifiedTypeName name="com.comestic.dao.mapper.IRowMapper"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
     <fullyQualifiedTypeName name="com.comestic.utils.HttpUtil"/>
     <fullyQualifiedTypeName name="com.comestic.utils.Check"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 </qualifiedTypeNameHistroy>

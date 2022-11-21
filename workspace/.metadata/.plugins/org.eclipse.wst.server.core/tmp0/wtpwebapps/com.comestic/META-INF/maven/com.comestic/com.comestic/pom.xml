@@ -7,6 +7,11 @@
 	<version>1.0</version>
 	<packaging>war</packaging>
 
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -80,16 +85,15 @@
 	<build>
 		<plugins>
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
+				<version>3.6.0</version>
 				<configuration>
-					<release>15</release>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
-			</plugin>
-			<plugin>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>3.2.3</version>
 			</plugin>
 		</plugins>
 	</build>
+
 </project>

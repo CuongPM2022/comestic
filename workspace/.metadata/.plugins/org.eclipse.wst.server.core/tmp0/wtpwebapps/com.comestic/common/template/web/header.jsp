@@ -9,7 +9,7 @@
 			</div>
 
 			<div class="header__logo">
-				<span class="logo__image"> <a href="#"> <img
+				<span class="logo__image"> <a href="/"> <img
 						src="<c:url value='/views/source/image/logo.png'/>">
 				</a>
 				</span>
@@ -26,9 +26,10 @@
 					</div>
 
 					<div class="search__suggest">
-						<span class="suggest__item">Điện thoại</span> <span
-							class="suggest__item">Điện tử</span> <span class="suggest__item">Điện
-							lạnh</span> <span class="suggest__item">Gia dụng</span>
+						<span class="suggest__item">Điện thoại</span>
+						<span class="suggest__item">Điện tử</span> 
+						<span class="suggest__item">Điện lạnh</span> 
+						<span class="suggest__item">Gia dụng</span>
 					</div>
 				</form>
 			</div>
@@ -43,8 +44,11 @@
 				</div>
 
 				<div class="info__cart">
-					<i class="fa-solid fa-cart-shopping"></i> <span class="cart__text">Giỏ
-						hàng</span> <span class="cart__number">0</span>
+					<a href="/cart">
+						<i class="fa-solid fa-cart-shopping"></i>
+						<span class="cart__text">Giỏ hàng</span>
+						<span class="cart__number">0</span>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -53,7 +57,7 @@
 	<div class="menu">
 		<div class="grid wide">
 			<ul class="menu__list">
-				<li class="menu__item"><a href="#"> <i
+				<li class="menu__item"><a href="/"> <i
 						class="fa-solid fa-house"></i> <span class="menu__item_text">Trang
 							chủ</span>
 				</a></li>

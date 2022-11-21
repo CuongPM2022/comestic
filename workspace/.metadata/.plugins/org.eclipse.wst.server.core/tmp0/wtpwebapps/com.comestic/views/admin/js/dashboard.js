@@ -49,6 +49,7 @@
 		'setup' : function() {
 			const date = new Date();
 			temp = date.toISOString().split('T')[0];
+			//console.log(temp = date.toISOString());
 			this.minDay = temp;
 			this.maxDay = temp;
 		},

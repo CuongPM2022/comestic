@@ -208,7 +208,7 @@ public class AbstractDAO<T> implements IAbstractDAO<T> {
 				}
 			}
 
-			if (paging.getOffset() != null) {
+			if (paging.getOffset() != null && paging.getMaxItem() != null) {
 				sql.append(MessageFormat.format(" limit {0},{1}", paging.getOffset(), paging.getMaxItem()));
 			}
 		}
@@ -257,7 +257,6 @@ public class AbstractDAO<T> implements IAbstractDAO<T> {
 				}
 			}
 		}
-		
 	}
 
 	private void setParameter(PreparedStatement state, Object... parameters) {
@@ -282,7 +281,7 @@ public class AbstractDAO<T> implements IAbstractDAO<T> {
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
-		}
+		}		
 
 	}
 

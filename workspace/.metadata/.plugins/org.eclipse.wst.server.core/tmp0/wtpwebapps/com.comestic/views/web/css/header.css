@@ -81,6 +81,11 @@
 	font-weight: bold;
 }
 
+.info__cart a {
+	display: block;
+	text-decoration: none;
+}
+
 .info__cart i {
 	font-size: 20px;
 	color: var(--primaryYellow);
