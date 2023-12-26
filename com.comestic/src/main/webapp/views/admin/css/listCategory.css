@@ -1,0 +1,244 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.row.center {
+	justify-content: center;
+}
+
+.body {
+	padding: 22px 32px;
+}
+
+.header__contain {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 4px;
+}
+
+.text__header {
+	margin-top: auto;
+}
+
+.allAction {
+	text-align: right;
+}
+
+.allAction i {
+	color: white;
+}
+
+.allAction__item {
+	display: none;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.allAction__item.show {
+	display: inline-block;
+}
+
+.allAction__item + .allAction__item {
+	margin-left: 4px;
+}
+
+.action--create {
+	background: #2f86eb;
+}
+
+.action--delete {
+	background: #ff623d;
+}
+
+.listTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.listTable th,
+.listTable td {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 8px;
+	text-align: left;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.listTable td img {
+	height: 40px;
+}
+
+th.tbCenter,
+td.tbCenter {
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.td__action {
+	display: inline-block;
+	padding: 4px 6px;
+	color: white;
+}
+
+.td__action + .td__action {
+	margin-left: 4px;
+}
+
+.td__action > i {
+	font-size: 13px;
+}
+
+.td__action--edit {
+	background: #71be34;
+}
+
+.td__action--delete {
+	background: #ff623d;
+}
+
+.listTable tr:nth-child(even) {
+	background: #f9f9f9;
+}
+
+.overload {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 1;
+}
+
+.overload.active {
+	display: block;
+}
+
+/* Form */
+.form__contain {
+	display: none;
+	position: fixed;
+	top: 120px;
+	z-index: 3;
+}
+
+.form__contain.popup {
+	display: block;
+}
+
+.form {
+	background: white;
+	border-radius: 6px;
+}
+
+.form__header {
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom: 1px solid #e0e0e0;
+	background: #f3f3f3;
+	font-weight: 600;
+}
+
+.form__body {
+	padding: 16px 16px 20px;
+}
+
+.formGroupt + .formGroupt {
+	margin-top: 16px;
+}
+
+.form__item__name {
+	margin-bottom: 4px;
+	color: #333;
+}
+
+.form__item__input:not(input[type="file"]) {
+	display: block;
+	width: 100%;
+	height: 28px;
+	outline: none;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	padding-left: 6px;
+}
+
+.form__review__image {
+	height: 46px;
+}
+
+.form-message {
+	display: none;
+	font-size: 14px;
+	color: #ff623d;
+	margin-top: 4px;
+}
+
+.form-message.show {
+	display: block;
+}
+
+.form__button {
+	margin-top: 20px;
+	width: 100%;
+	height: 32px;
+	border-radius: 4px;
+	background: #2f86eb;
+	color: white;
+	font-weight: bold;
+	border: none;
+}
+
+.form__button:hover {
+	opacity: 0.8;
+}
+
+/* end Form */
+
+/* Paging */
+.listPaging__contain {
+	margin-top: 16px;
+}
+
+.listPaging {
+	list-style-type: none;
+}
+
+.hide {
+	display: none;
+}
+
+.listPaging__item {
+	display: inline-block;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	padding: 4px 8px;
+	border-radius: 4px;
+	background: #f3f3f3;
+}
+
+.listPaging__item + .listPaging__item {
+	margin-left: 4px;
+}
+
+.listPaging__item.active {
+	background: #abc;
+	color: white;
+}
+
+
+/* end Paging */
+

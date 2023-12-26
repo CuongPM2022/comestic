@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.grid {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row.no-gutter {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.row.no-gutter>.col {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.col {
+	display: block;
+}
+
+/* PC: width >= 1024px */
+@media ( min-width : 1024px) {
+	.grid.wide.large {
+		max-width: 1400px;
+	}
+	.grid.wide {
+		max-width: 1200px;
+	}
+	.row {
+		margin-left: -8px;
+		margin-right: -8px;
+	}
+	.col {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.p-0 {
+		display: none;
+	}
+	.p-1 {
+		width: 8.33333%;
+	}
+	.p-2 {
+		width: 16.66667%;
+	}
+	.p-2-4 {
+		width: 20%;
+	}
+	.p-3 {
+		width: 25%;
+	}
+	.p-4 {
+		width: 33.33333%;
+	}
+	.p-5 {
+		width: 41.66667%;
+	}
+	.p-6 {
+		width: 50%;
+	}
+	.p-7 {
+		width: 58.33333%;
+	}
+	.p-8 {
+		width: 66.66667%;
+	}
+	.p-9 {
+		width: 75%;
+	}
+	.p-10 {
+		width: 83.33333%;
+	}
+	.p-11 {
+		width: 91.66667%;
+	}
+	.p-12 {
+		width: 100%;
+	}
+} /* End PC */
+
+/* Tablet:  width >= 740px && width < 1024px */
+@media ( min-width : 740px) and (max-width: 1023px) {
+	.grid.wide {
+		max-width: 664px;
+	}
+	.row {
+		margin-left: -6px;
+		margin-right: -6px;
+	}
+	.col {
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+	.t-0 {
+		display: none;
+	}
+	.t-1 {
+		width: 8.33333%;
+	}
+	.t-2 {
+		width: 16.66667%;
+	}
+	.t-2-4 {
+		width: 20%;
+	}
+	.t-3 {
+		width: 25%;
+	}
+	.t-4 {
+		width: 33.33333%;
+	}
+	.t-5 {
+		width: 41.66667%;
+	}
+	.t-6 {
+		width: 50%;
+	}
+	.t-7 {
+		width: 58.33333%;
+	}
+	.t-8 {
+		width: 66.66667%;
+	}
+	.t-9 {
+		width: 75%;
+	}
+	.t-10 {
+		width: 83.33333%;
+	}
+	.t-11 {
+		width: 91.66667%;
+	}
+	.t-12 {
+		width: 100%;
+	}
+} /* End Tablet */
+
+/* Mobile: width < 740px */
+@media ( max-width : 739px) {
+	.grid.wide {
+		max-width: 100%;
+	}
+	.row {
+		margin-left: -2px;
+		margin-right: -2px;
+	}
+	.col {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.m-0 {
+		display: none;
+	}
+	.m-1 {
+		width: 8.33333%;
+	}
+	.m-2 {
+		width: 16.66667%;
+	}
+	.m-2-4 {
+		width: 20%;
+	}
+	.m-3 {
+		width: 25%;
+	}
+	.m-4 {
+		width: 33.33333%;
+	}
+	.m-5 {
+		width: 41.66667%;
+	}
+	.m-6 {
+		width: 50%;
+	}
+	.m-7 {
+		width: 58.33333%;
+	}
+	.m-8 {
+		width: 66.66667%;
+	}
+	.m-9 {
+		width: 75%;
+	}
+	.m-10 {
+		width: 83.33333%;
+	}
+	.m-11 {
+		width: 91.66667%;
+	}
+	.m-12 {
+		width: 100%;
+	}
+}

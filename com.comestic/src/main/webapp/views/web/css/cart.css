@@ -1,0 +1,315 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--heightHeader: 80px;
+	--primaryColor: #ff5d00;
+	--backgroundColor: #f2f3f4;
+	--primaryYellow: #ffbb00;
+}
+
+body {
+	background-color: var(--backgroundColor);
+}
+
+/* header */
+
+/* end .header */
+
+/* body */
+.body {
+	padding-top: 12px;
+}
+
+.row.center {
+	justify-content: center;
+}
+
+.body_text {
+	display: flex;
+	justify-content: space-between;
+}
+
+.body_text_shopping {
+	text-decoration: none;
+}
+
+.cart_detail {
+	margin-top: 12px;
+	background-color: white;
+}
+
+.product_list {
+	list-style-type: none;
+}
+
+.product_item {
+	display: flex;
+	border-bottom: 1px solid #d1d1d1;
+	padding: 7px 16px;
+}
+
+.product_item:last-child {
+	border-bottom: none;
+	margin-bottom: 12px;
+}
+
+.product_item img {
+	max-height: 60px;
+	max-width: 60px;
+	margin-right: 12px;
+}
+
+.item_info {
+	flex: 1;
+}
+
+.item_info .name {
+	padding-bottom: 4px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.item_info .priceSold {
+	font-weight: bold;
+	font-size: 16px;
+	color: var(--primaryColor);
+}
+
+.item_info .price {
+	display: none;
+	padding-left: 6px;
+	text-decoration: line-through;
+	color: #757575;
+}
+
+.product_item.sale .price {
+	display: inline-block;
+}
+
+.cart__item__delete {
+	padding-top: 4px;
+}
+
+.cart__item__delete i {
+	font-size: 13px;
+	color: #757575;
+}
+
+.item__delete__text {
+	font-size: 13px;
+	color: #757575;
+}
+
+.number_item.sub,
+.number_item.plus {
+	cursor: pointer;
+}
+
+.product_item.min .sub,
+.product_item.max .plus {
+	/*pointer-events: none;*/
+	cursor: not-allowed;
+}
+
+.product_item .number
+{
+	margin: auto 0;
+}
+
+.product_item .number {
+	display: flex;
+	justify-items: flex-end;
+}
+
+.number_item.sub,
+.number_item.plus {
+	cursor: pointer;
+}
+
+.number.min .sub,
+.number.max .plus {
+	/*pointer-events: none;*/
+	cursor: not-allowed;
+}
+
+.number_item
+{	
+	padding: 8px 12px;
+	border-left: 1px solid #d1d1d1;
+	border-top: 1px solid #d1d1d1;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+.number_item:last-child {
+	border-right: 1px solid #d1d1d1;
+}
+
+.number_item.value {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.number__input {
+	outline: none;
+	width: 28px;
+	text-align: center;
+	border: none;
+}
+
+.cart_total {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 24px 12px 24px;
+}
+
+.cart_customer {
+	border-top: 1px solid #d1d1d1;
+	padding: 12px 24px 18px 24px;
+}
+
+.cart_customer > span {
+	text-transform: uppercase;
+}
+
+.formGroupt {
+	margin-top: 14px;
+}
+
+.blank {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+}
+
+.form-message {
+	display: none;
+	color: #ff623d;
+	padding-top: 3px;
+	font-size: 15px;
+}
+
+input[type="radio"] {
+	margin-right: 6px;
+}
+
+.body input[type="text"]:not(.number__input) {
+	border: solid 1px #d1d1d1;
+	height: 34px;
+	line-height: 34px;
+	width: 100%;
+	padding-left: 10px;
+	outline: none;
+	border-radius: 4px;
+}
+
+.formGroupt.error input {
+	border-color: #ff623d;
+}
+
+.form-message.show {
+	display: inline-block;
+}
+
+#gender {
+	font-size: 16px;
+}
+
+#method p {
+	padding-bottom: 8px;
+	text-transform: uppercase;
+}
+
+.cart_order {
+	padding: 12px 24px 18px 24px;
+	border-top: 1px solid #d1d1d1;
+}
+
+.cart_order_text {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cart_order_text > span {
+	font-size: 18px;
+}
+
+
+.cart_order_text .text {
+	font-weight: bold;
+}
+
+.cart_order_text .totalMoney__number {
+	color: red;
+	font-weight: bold;
+}
+
+.btnOrder {
+	margin-top: 12px;
+	background-color: var(--primaryColor);
+	display: block;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 4px;
+	text-transform: uppercase;
+}
+
+.btnOrder:hover {
+	opacity: 0.9;
+}
+
+/* footer */
+.footer {
+	margin-top: 24px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #333;
+	color: white;
+	text-align: justify;
+}
+
+#footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #777;
+}
+
+/* end .body */
+
+/* PC: width >= 1024px */
+@media (min-width: 1024px) {
+	.formGroupt + .formGroupt {
+		margin-top: 18px;
+	}
+
+	.btnOrder {
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+}
+
+/* Mobile: width < 740px */
+@media (max-width: 739px)
+{
+	.header {
+		padding-left: 6px;
+		padding-right: 6px;
+	}
+
+	.body {
+		margin-left: 6px;
+		margin-right: 6px;
+	}
+
+	.btnOrder {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+}

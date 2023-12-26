@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f1f2f3;
+}
+
+.body {
+	margin: 12px;
+	background: white;
+	padding: 18px;
+}
+
+.text__header + .row {
+	padding-left: 4px;
+}
+
+.text__header {
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 6px;
+}
+
+.info-groupt {
+	margin-top: 12px;
+}
+
+.info-groupt__text {
+	font-weight: bold;
+}
+
+.bill__info,
+.bill__detail {
+	padding-top: 32px;
+}
+
+.bill__info__state {
+	padding-top: 6px;
+}
+
+.select__state,
+.btn__state {
+	height: 26px;
+	min-width: 160px;
+}
+
+.select__state {
+	outline: none;
+}
+
+.listTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.listTable th,
+.listTable td {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 8px;
+	text-align: left;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.listTable tr:nth-child(even) {
+	background: #f1f1f1;
+}
+
+.listTable td img {
+	height: 40px;
+}
